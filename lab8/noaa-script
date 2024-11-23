@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+
+
+cat aviation.json | jq '.[].receiptTime' "aviation.json" | head -n 6
+
